@@ -3,3 +3,23 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+/* contenitore pagina principale */
+#container{
+  margin: 1%;
+}
+
+/* intestazione */
+header{
+  height: 200px;
+  background-color: yellow;
+}
+
+/* contenuto principale */
+
+
+/* footer */
+footer{
+  height: 100px;
+  background-color: lightblue;
+}
