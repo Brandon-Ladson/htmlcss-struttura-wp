@@ -21,23 +21,35 @@ header{
   background-color: yellow;
 }
 
-/* contenuto principale */
+/* parte principale */
+main{
+  /* debug */
+  background-color: green;
+}
+
 aside{
   width: 24%;
-  background-color: pink;
   float: left;
-  /* debug */
-  height: 300px;
 }
 
 section{
   width: 50%;
-  background-color: purple;
   float: left;
   margin: 0 1%;
-  /* debug */
-  height: 650px;
 }
+
+/* contenuto sezione */
+.pink-box{
+  height: 300px;
+  background-color: pink;
+  margin-bottom: 20px;
+}
+
+.purple-box{
+  height: 650px;
+  background-color: purple;
+}
+
 
 /* footer */
 footer{
