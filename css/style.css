@@ -4,6 +4,12 @@
   box-sizing: border-box;
 }
 
+.clearfix::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
 /* contenitore pagina principale */
 #container{
   margin: 1%;
@@ -16,7 +22,22 @@ header{
 }
 
 /* contenuto principale */
+aside{
+  width: 24%;
+  background-color: pink;
+  float: left;
+  /* debug */
+  height: 300px;
+}
 
+section{
+  width: 50%;
+  background-color: purple;
+  float: left;
+  margin: 0 1%;
+  /* debug */
+  height: 650px;
+}
 
 /* footer */
 footer{
